@@ -1,0 +1,22 @@
+1. What method is used to remove newlines from the MySQL data?
+rstrip()
+The rstrip method is used to remove newlines from the MySQL data.
+
+2. What code fragment is used to make the connection to the MySQL database?
+mysql.connector.connect
+The mysql.connector.connect code fragment is used to make the connection to the MySQL database.
+
+3. What Python object is needed to insert data into a table?
+cursor
+
+
+4. What value would you assign to search for the name Roby in a Table called name_table in Python
+given the following SQL?
+"SELECT * FROM name_table WHERE word =%s"
+value = _______
+cursor.execute(sql, value)
+('Roby',)
+
+
+5. What SQL would you use to update a first name in a table called name_table in Python?
+"UPDATE name_table SET firstname = %s WHERE lastname = %s"
