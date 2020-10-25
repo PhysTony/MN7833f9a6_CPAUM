@@ -1,2 +1,1 @@
-# MN7833f9a6_CPAUM
-Course of using Python with MySQL
+### Create_a_Python_Application_using_MySQL
